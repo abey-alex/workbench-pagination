@@ -1,0 +1,44 @@
+html {
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+body {
+  margin: 0;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  height: 450px;
+}
+
+.List {
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+}
+
+.ListItem {
+  display: flex;
+  flex-direction: row;
+}
+
+.ListItem-Header {
+  background: #c1c1c1;
+}
+
+.ListItem-Id {
+  width: 20%;
+}
+
+.ListItem-Name {
+  flex: 1;
+}
+
+.ListItem-Count {
+  width: 30%;
+}
